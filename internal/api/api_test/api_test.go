@@ -1,3 +1,3 @@
 package api_test
 
-// TODO: Implement unit/integrated tests for the api package
+// TODO: Implement unit/integrated tests for requests in the api package

@@ -28,7 +28,7 @@
 ```
 curl http://localhost:6000/joke
 ```
-*Response Example:*
+*Response Example:*  
 *Client*
 ```
 my-mbp :: ~ » curl http://localhost:6000/joke

@@ -11,6 +11,7 @@
   "port": "6000" // Or a port of your choice that you know to be open
 }
 ```
+- The server will pull the port value from this file
 #### Build/Run
 - In terminal, change your path to the `{project root}/cmd/wildfire-golang-assessment` directory
 - You can do 1 of 2 things:

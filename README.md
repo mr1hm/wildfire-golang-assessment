@@ -23,12 +23,12 @@
 
 ## Control Flow
 #### "/joke"
-- Responds with a json string that replaces "John Doe" within the joke with the name received by the random name service
-- Request Example:
+- Responds with a json string that replaces "John Doe" within the joke with the name received by the random name service  
+Request Example:
 ```
 curl http://localhost:6000/joke
 ```
-- Response Example:
+Response Example:
 Client
 ```
 my-mbp :: ~ » curl http://localhost:6000/joke

@@ -57,4 +57,4 @@ Adding additional URLs to fetch data from shouldn't be too difficult, you can si
 - An invalid character 'u' is present somewhere, but I was unable to find out what this was within the time limit. It seems like the name api is throwing an error and sending an unexpected data type back or using some kind of character that Go's JSON decoder is decoding to something that starts with `'u'`, but I was unable to pinpoint the issue unfortunately
 - There's commented out code in that same block that I've been using to try and debug the issue
 
-- I wasn't able to implement any unit/integration tests within the time limit, but these can be added (along with benchmarks) in the test files (i.e. `/internal/api/api_test`)
+- I wasn't able to implement any unit/integration tests within the time limit, but these can be added (along with benchmarks) in the test files (i.e. `/internal/api/api_test/api_test.go`)

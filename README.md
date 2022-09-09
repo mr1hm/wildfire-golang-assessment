@@ -47,7 +47,7 @@ my-mbp :: ~ » curl http://localhost:6000/joke
 Adding additional URLs to fetch data from shouldn't be too difficult, you can simply do the following:
 - Add the new URL to the existing `URLs` global variable in the `api` package
 - Define a new struct for the response data in the `api` package
-- Add a case for `req.Service` for the new URL in the `Get()` function in the `api` package
+- Add a case for `req.Service` for the new URL in the `GetURL()` function in the `api` package
 - Add a type case for the type switch in the `Set()` handler in the `api` package
 - The logic that handles manipulating the string to replace the name "John Doe" in the `getMessage()` handler may not be suitable for your newly requested data, so be sure to add additional logic if needed
 

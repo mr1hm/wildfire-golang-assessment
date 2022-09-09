@@ -24,17 +24,17 @@
 ## Control Flow
 #### "/joke"
 - Responds with a json string that replaces "John Doe" within the joke with the name received by the random name service
-* Request Example:
+*Request Example:*
 ```
 curl http://localhost:6000/joke
 ```
-Response Example:
-* Client
+*Response Example:*
+*Client*
 ```
 my-mbp :: ~ » curl http://localhost:6000/joke
 "Zinab Gallien can write multi-threaded applications with a single thread."
 ```
-* Server Logging:
+*Server Logging:*
 ```
 2022/09/08 20:50:37 Reading config file...
 2022/09/08 20:50:37 Server starting on Port 6000...

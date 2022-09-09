@@ -22,8 +22,6 @@ type ResponseData struct {
 
 var (
 	RespData ResponseData
-
-	counter = 1
 )
 
 func (rd *ResponseData) NewData() ResponseData {

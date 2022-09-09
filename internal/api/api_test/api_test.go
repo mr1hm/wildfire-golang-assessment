@@ -4,4 +4,4 @@ package api_test
 // 	"testing"
 // )
 
-// TODO: Implement unit/integrated tests for requests in the api package
+// TODO: Implement unit/integrated tests and benchmarks for requests in the api package

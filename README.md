@@ -48,8 +48,8 @@ Adding additional URLs to fetch data from shouldn't be too difficult, you can si
 - Add the new URL to the existing `URLs` global variable in the `api` package
 - Define a new struct for the response data in the `api` package
 - Add a case for `req.Service` for the new URL in the `Get()` function in the `api` package
-- Add a case that checks for the new type for the type switch in the `getMessage()` handler in the `server` package
-- The following logic after this type switch may not be suitable for your newly requested data, so be sure to add additional logic if needed
+- Add a type case for the type switch in the `Set()` handler in the `api` package
+- The logic that handles manipulating the string to replace the name "John Doe" in the `getMessage()` handler may not be suitable for your newly requested data, so be sure to add additional logic if needed
 
 ## Additional comments
 - While the app runs fine, when making very rapid requests there's an issue that occurs on `L58` in `/internal/api/api.go` randomly (during decode of name response)

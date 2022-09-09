@@ -29,7 +29,7 @@
 curl http://localhost:6000/joke
 ```
 *Response Example:*  
-*Client*
+*Client:*
 ```
 my-mbp :: ~ » curl http://localhost:6000/joke
 "Zinab Gallien can write multi-threaded applications with a single thread."

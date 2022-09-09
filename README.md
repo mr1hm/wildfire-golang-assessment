@@ -58,3 +58,4 @@ Adding additional URLs to fetch data from shouldn't be too difficult, you can si
 - There's commented out code in that same block that I've been using to try and debug the issue
 
 - I wasn't able to implement any unit/integration tests within the time limit, but these can be added (along with benchmarks) in the test files (i.e. `/internal/api/api_test/api_test.go`)
+- If this project was going to scale larger, creating a `Makefile` at the root of this project to automate initial setup would be nice

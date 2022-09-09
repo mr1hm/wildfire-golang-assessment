@@ -22,7 +22,7 @@
 2.
 - In terminal, simply run `go run main.go` from `{project root}/cmd/wildfire-golang-assessment`
 
-## Control Flow
+## Routes
 #### "/joke"
 - Responds with a json string that replaces "John Doe" within the joke with the name received by the random name service
 *Request Example:*

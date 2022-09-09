@@ -89,7 +89,7 @@ func getMessage(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	// Once our string manipulation is done, we send our encoded response
+	// Once our string manipulation is done, we log our response then send our encoded response
 	full_msg := strings.Join(full_msg_sl, " ")
 	log.Println("Response:", full_msg)
 

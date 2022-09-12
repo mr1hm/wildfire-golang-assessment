@@ -39,13 +39,13 @@ func getMessage(w http.ResponseWriter, r *http.Request) {
 			}
 			wg.Done()
 		}(job)
-		wg.Wait()
 
 		// If any requests errors have occurred, it would've been assigned to `req_err`
 		if req_err != nil {
 			log.Println("Request error:", req_err.Error())
 		}
 	}
+	wg.Wait()
 
 	// Consume values from results channel
 	wg.Add(1)

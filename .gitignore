@@ -1,3 +1,4 @@
 cmd/wildfire-golang-assessment/wildfire-golang-assessment
 .vscode
 config.json
+test-requests.sh
